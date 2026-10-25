@@ -1,0 +1,18 @@
+# Build artifacts
+build/
+.pio/
+*.o
+*.bin
+
+# IDE / editor files
+.vscode/
+.idea/
+*.swp
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Local config / secrets (copy the .example files to these and fill in real values)
+esp32/include/config.h
+server/config.php
